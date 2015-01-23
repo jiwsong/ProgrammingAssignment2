@@ -1,7 +1,19 @@
-## Put comments here that give an overall description of what your
-## functions do
+## R Programming Assignment 2
+## Jiwoo Song
 
-## Write a short comment describing this function
+## This function uses the <<- operator to successfully store the inverse of an
+## matrix as an object within the funciton environment
+
+## First funciton makeCacheMatrix creates a special matrix as a list containing 
+## funcitons to:
+## 1. set the value of the matrix
+## 2. get the value of the matrix
+## 3. set the value of the inverse matrix
+## 4. get the value of the inverse matrix
+
+## The second function cacheSolve calculates the inverse of the special matrix
+## created above, first checking if the inverse matrix has already been calculated.
+
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL # to initialize the variable
